@@ -127,16 +127,22 @@ margin-top: 26px;
 .context{
     color: white;
     position: absolute;
-    top: 50%;
+    top: 77%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .context h1{
     font-family: 'sample';
     font-size: 93px;
-    color: #c14646;
+    color: #fff;  
+    transition: all 1s;
 
-    
+
+    cursor: pointer;
+}
+.context h1:hover{
+    color: #c14646;
 }
 @media screen and (max-width:750px){
     #line{
