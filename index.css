@@ -1,7 +1,23 @@
 @font-face {
-src: url(sample.ttf);
+src: url(fonts/sample.ttf);
 font-family:'sample';
 
+}
+@font-face {
+    font-family: 'blood-crow';
+    src: url(fonts/blood-crow.ttf);
+}
+@font-face {
+    font-family: 'my hero academia';
+    src: url(fonts/my\ hero\ academia.otf);
+}
+@font-face {
+    font-family: 'commando';
+    src: url(fonts/commando.ttf);
+}
+@font-face {
+    font-family:'downcome';
+    src: url(fonts/downcome.TTF);
 }
 *{
 padding: 0;
@@ -130,20 +146,112 @@ margin-top: 26px;
     top: 77%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+    width: 100%;
+    text-align: center;
 
+    
+}
 .context h1{
     font-family: 'sample';
     font-size: 93px;
     color: #fff;  
-    transition: all 1s;
-
-
     cursor: pointer;
+    transition: all 1s
+;
+
 }
 .context h1:hover{
     color: #c14646;
 }
+.blog-1{
+    position: relative;
+}
+.context1{
+    color: white;
+    position: absolute;
+    top: 89%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+
+
+}
+.context1 h1{
+    font-family: 'blood-crow';
+    font-size: 55px;
+    color: #fff;  
+    cursor: pointer;
+    transition: all 1s;
+
+}
+.context1 h1:hover{
+    
+    color: #c14646;
+}
+.context2{
+    color: white;
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+
+}
+.context2 h1{
+    font-family: 'my hero academia';
+    font-size: 34px;
+    color: #fff;  
+    cursor: pointer;
+    transition: all 1s;
+
+}
+.context2 h1:hover{
+    
+    color: #c14646;
+}
+.context3{
+    color: white;
+    position: absolute;
+    top: 94%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+
+}
+.context3 h1{
+    font-family: 'commando';
+    font-size: 34px;
+    color: #fff;  
+    cursor: pointer;
+    transition: all 1s;
+
+}
+.context3 h1:hover{
+    
+    color: #c14646;
+}
+.context5{
+    color: white;
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+
+}
+.context5 h1{
+    font-family: 'downcome';
+    font-size: 34px;
+    color: #fff;  
+    cursor: pointer;
+    transition: all 1s;
+
+}
+.context5 h1:hover{
+    
+    color: #c14646;
+}
+
 @media screen and (max-width:750px){
     #line{
         display: flex;
