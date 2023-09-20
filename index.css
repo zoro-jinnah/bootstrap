@@ -19,6 +19,22 @@ font-family:'sample';
     font-family:'downcome';
     src: url(fonts/downcome.TTF);
 }
+@font-face {
+    font-family:'naruto';
+    src: url(fonts/naruto.ttf);
+}
+@font-face {
+    font-family: 'BlackClover';
+    src: url(fonts/BlackClover.ttf);
+}
+@font-face {
+    font-family: 'dr stone';
+    src: url(fonts/dr\ stone.ttf);
+}
+@font-face {
+    font-family:'TokyoKnights';
+    src: url(fonts/TokyoKnights.ttf);
+}
 *{
 padding: 0;
 margin: 0;
@@ -99,7 +115,9 @@ margin-top: 26px;
     /* flex-direction: column; */
 }
 
-
+.img-thumbnail{
+    position: relative;
+}
 
 .img-thumbnail img:hover {
     /* --webkit-filter: blur(2px); */
@@ -110,9 +128,9 @@ margin-top: 26px;
 .playicon img{
     width: 40px;
     height: 40px;
-    position: relative;
-    top: -163px;
-    left: 78px;
+   position: absolute;
+   top: 36%;
+   left: 33%;
     visibility: hidden;
     transition: all ease-out 100ms
     /* display:hidden; */
@@ -230,6 +248,27 @@ margin-top: 26px;
     
     color: #c14646;
 }
+.context4{
+    color: white;
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+
+}
+.context4 h1{
+    font-family: 'naruto';
+    font-size: 34px;
+    color: #fff;  
+    cursor: pointer;
+    transition: all 1s;
+
+}
+.context4 h1:hover{
+    
+    color: #c14646;
+}
 .context5{
     color: white;
     position: absolute;
@@ -250,6 +289,87 @@ margin-top: 26px;
 .context5 h1:hover{
     
     color: #c14646;
+}
+.context6{
+    color: white;
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+
+}
+.context6 h1{
+    font-family: 'BlackClover';
+    font-size: 34px;
+    color: #fff;  
+    cursor: pointer;
+    transition: all 1s;
+
+}
+.context6 h1:hover{
+    
+    color: #c14646;
+}
+.context7{
+    color: white;
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+
+}
+.context7 h1{
+    font-family: 'dr stone';
+    font-size: 47px;
+    color: #fff;  
+    cursor: pointer;
+    transition: all 1s;
+
+}
+
+
+.context7 h1:hover{
+    
+    color: #c14646;
+}
+.context8{
+    color: white;
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+
+}
+.context8 h1{
+    font-family: 'TokyoKnights';
+    font-size: 32px;
+    color: #fff;  
+    cursor: pointer;
+    transition: all 1s;
+
+}
+
+
+.context8 h1:hover{
+    
+    color: #c14646;
+}
+
+/* action */
+.img-thumbnail p{
+    margin-left: 10%;
+    color: white;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.img-thumbnail p:hover{
+    color: wheat;
+    cursor: pointer;
 }
 
 @media screen and (max-width:750px){
