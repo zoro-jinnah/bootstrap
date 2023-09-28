@@ -35,6 +35,14 @@ font-family:'sample';
     font-family:'TokyoKnights';
     src: url(fonts/TokyoKnights.ttf);
 }
+@font-face {
+    font-family:'OnePiece' ;
+    src: url(fonts/OnePiece.ttf);
+}
+@font-face {
+    font-family:'Sayyeda';
+    src: url(fonts/Sayyeda.ttf);
+}
 *{
 padding: 0;
 margin: 0;
@@ -49,8 +57,8 @@ body{
 #logo{
 
   
-    width: 98px;
-    height: 65px;
+    width: 83px;
+    height: 64px;
 }
 .description{
     -webkit-line-clamp: 2;
@@ -371,10 +379,453 @@ margin-top: 26px;
     color: wheat;
     cursor: pointer;
 }
+.sideimg{
+    width: 50%;
+}
+.sideimg img{
+    width: 100%;
+}
+.form{
+    width: 50%;
+    text-align: -webkit-center;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+.form-floating{
+    width: 80%;
+    color: white;
+}
+#floatingInput{
+    background-color: transparent;
+   color: white;
+}
+#floatingTextarea2{
+    background-color: transparent;
+    color: white;
+}
+.contactbanner{
+    position: relative;
+}
+.contactext{
+    width: 100%;
+    position: absolute;
+    top: 177px;
+    text-align: center;
+}
+.contactext h2{
+    font-family: 'Sayyeda';
+    color: white;
+    font-size: 80px;
+}
+.me-5 {
+    margin-right: 4rem!important;
+}
+/* modal */
+#inputEmail4{
+    padding: 0.375rem 13.75rem;
+}
+
+#inputPassword4{
+    padding: 0.375rem 13.75rem;
+}
+#nextpage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 10px auto;
+}
+#signupkaro{
+    
+    border: none;
+    background-color: transparent;
+}
+#signupkaro:hover{
+    background-color: transparent;    
+    border: none;
+}
+.modal-content{
+    background-color: transparent;
+    backdrop-filter: blur(30px);
+    color: white;
+    border: 1px solid #000000c2;
+}
+#closekaro{
+    color: wheat;
+}
+
+
+
+
+/* responsive section */
+
+
+
+@media screen and (max-width:1200px) {
+    #slides-h1{
+        font-size: 33px;
+    }
+    
+}
+@media screen and (max-width:1100px) {
+    #slides-h1{
+        font-size: 30px;   
+     }
+    
+}
+@media screen and (max-width:1150px) {
+    .contactext h2 {
+        font-family: 'Sayyeda';
+        color: white;
+        font-size: 64px;
+    }
+    .contactext {
+        top: 134px;
+    }
+}
+@media screen and (max-width:1000px) {
+    #slides-h1{
+        font-size: 25px;   
+     }
+     .description{
+        font-size: 15px;
+     }
+    
+}
+@media screen and (max-width:900px) {
+    #slides-h1{
+        font-size: 25px;   
+     }
+     .description{
+        font-size: 15px;
+     }
+     .carousel-indicators {
+        margin-bottom: 0rem;
+     }
+     .carousel-indicators [data-bs-target] {
+        width: 26px;
+        height: 2px;
+     }
+     .carousel-caption {
+        padding-bottom: 0rem;
+     }
+     .btn-outline-warning{
+        padding: 3px 9px;
+     }
+     .mb-4 {
+        margin-bottom: 0.5rem!important;
+    }
+    .contactext h2 {    
+        font-size: 59px;
+    }
+    .contactext {
+        top: 106px;
+    }
+ 
+}
+@media screen and (max-width:850px){
+    .context h1 {
+        font-size: 60px;
+
+}
+.context1 h1 {
+    font-size: 33px;
+}
+
+.context2 h1 {
+    font-size: 20px;
+}
+.context3 h1 {
+    font-size: 27px;
+
+}
+.context4 h1 {
+    font-size: 24px;
+}
+.context5 h1 {
+    font-size: 26px;
+}
+.context6 h1 {
+    font-size: 27px;
+}
+.context7 h1 {
+    font-size: 38px;
+}
+.context8 h1 {
+    font-size: 24px;
+}
+
+
+
+
+}
+@media screen and (max-width:800px){
+    #slides-h1 {
+        font-size: 21px;
+    }
+
+}
+@media screen and (max-width:700px){
+    #slides-h1 {
+        font-size: 18px;
+    }
+    .carousel-indicators [data-bs-target] {
+        width: 15px;
+        height: 2px;
+    }
+    .btn-outline-warning {
+        padding: 1px 3px;
+    }
+    .btn{
+        font-size: 14px;
+    }
+    .context2 h1 {
+    font-size: 35px;
+}
+
+}
 
 @media screen and (max-width:750px){
     #line{
         display: flex;
         flex-direction: row;
+
+    }
+    #img-hi-4 {
+        display: block;
+        display: contents;
+    }
+    .context2 h1 {
+        font-size: 35px;
+    }
+    .context3 h1 {
+        font-size: 55px;
+    }
+    .context8 h1 {
+        font-size: 19px;
+    }
+    .contact {
+        flex-direction: column-reverse;
+        margin: 84px 0px;
+    }
+    .sideimg img {
+        width: 100%;
+        margin: 23px 0px;
+    }
+    .sideimg {
+        width: 70%;
+    }
+    .form {
+        width: 100%;
+    }
+    .contactext {
+        top: 81px;
+    }
+
+ 
+}
+@media screen and (max-width:650px){
+    .contactext h2 {
+        font-size: 54px;
+    }
+    .contactext {
+        top: 69px;
+    }
+
+}
+@media screen and (max-width:600px){
+    #slides-h1 {
+        font-size: 15px;
+    }
+    .description {
+        -webkit-line-clamp: 1;
     }
 }
+@media screen and (max-width:550px){
+    .contactext h2 {
+        font-size: 39px;
+    }
+    .contactext {
+        top: 62px;
+    }
+}
+@media screen and (max-width:500px){
+    #slides-h1 {
+        font-size: 13px;
+    }
+    .img-thumbnail img {
+        width: 181px;
+    }
+    .playicon img {
+        width: 40px;
+    }
+    .context h1 {
+        font-size: 39px;
+    }
+    .context8 h1 {
+        font-size: 17px;
+    }
+    .context7 h1 {
+        font-size: 29px;
+    }
+    .contactext {
+        top: 52px;
+    }
+    .sideimg {
+        width: 75%;
+    }
+}
+@media screen and (max-width:450px){
+    #slides-h1 {
+        font-size: 11px;
+    }
+    
+    .img-thumbnail img {
+        width: 154px;
+    }
+    .playicon img {
+        width: 40px;
+    }
+    
+    .description {
+        font-size: 12px;
+    }
+    .img-thumbnail img {
+        margin: 10px;
+    }
+    .contactext {
+        top: 44px;
+    } 
+    .sideimg {
+        width: 81%;
+    }  
+}
+
+@media screen and (max-width:400px){
+    #slides-h1 {
+        font-size: 9px;
+    }
+    .btn {
+        font-size: 10px;
+    }
+    .description {
+        font-size: 10px;
+    }
+    .img-thumbnail img {
+        width: 149px;
+    }
+    .playicon img {
+        width: 40px;
+    }
+    .context h1 {
+        font-size: 30px;
+    }
+    .context1 h1 {
+        font-size: 21px;
+    }
+    .context2 h1 {
+        font-size: 25px;
+    }
+    .context3 h1 {
+        font-size: 42px;
+    }
+    .context4 h1 {
+        font-size: 17px;
+    }
+    .context5 h1 {
+        font-size: 20px;
+    }
+    .context6 h1 {
+        font-size: 18px;
+    }
+    .context7 h1 {
+        font-size: 22px;
+    }
+    .context8 h1 {
+        font-size: 12px;
+    }
+    .context5 {
+        top: 86%;
+    }
+    .context6 {
+        top: 87%;
+    }
+    .contactext h2 {
+        font-size: 36px;
+    }
+    .contactext {
+        top: 38px;
+    }
+    .sideimg {
+        width: 84%;
+    }
+    
+
+}
+@media screen and (max-width:350px){
+    .carousel-indicators [data-bs-target] {
+        width: 6px;
+        height: 1px;
+    }
+    .carousel-indicators {
+        bottom: -5px;
+    }
+    .carousel-caption {
+        bottom: 9%;
+    }
+    .img-thumbnail img {
+        width: 126px;
+    }
+    .context h1 {
+        font-size: 24px;
+    }
+    .context5 {
+        top: 84%;
+    }
+    .context6 {
+        top: 85%;
+    }
+.context7 {
+    top: 86%;
+}   
+.context8 h1 {
+    font-size: 11px;
+}
+.contactext h2 {
+    font-size: 33px;
+}
+.contactext {
+    top: 30px;
+}
+
+}
+@media screen and (max-width:300px){
+    .img-thumbnail img {
+        width: 122px;
+    }
+    .playicon img {
+        width: 40px;
+        top: 31%;
+        left: 31%;
+    }
+    label {
+        font-size: 11px;
+    }
+    .form-check-input {
+        margin-top: 0rem;
+}
+}
+
+
+
+
+
+
+
+
+
