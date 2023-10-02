@@ -717,8 +717,9 @@ margin-top: 26px;
         font-size: 10px;
     }
     .img-thumbnail img {
-        width: 149px;
+        width: 122px;
     }
+        
     .playicon img {
         width: 40px;
     }
@@ -779,7 +780,7 @@ margin-top: 26px;
         bottom: 9%;
     }
     .img-thumbnail img {
-        width: 126px;
+        width: 102px;
     }
     .context h1 {
         font-size: 24px;
